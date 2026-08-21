@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Milan Joshi — Digital Portfolio</title>
+<meta name="description" content="Milan Joshi — Project Coordinator, Web Developer and Life Insurance Consultant based in Kathmandu, Nepal.">
+<meta name="author" content="Milan Joshi">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://milanjoshi.com.np/">
+<meta name="theme-color" content="#050505">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Milan Joshi — Digital Portfolio">
+<meta property="og:description" content="Project coordination, web development, insurance advisory and sustainable development interests.">
+<meta property="og:url" content="https://milanjoshi.com.np/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css">
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.181.2/build/three.webgpu.js","three/tsl":"https://cdn.jsdelivr.net/npm/three@0.181.2/build/three.tsl.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.181.2/examples/jsm/"}}</script>
+</head>
+<body>
+<canvas id="globe" aria-label="Interactive 3D Earth"></canvas>
+<div class="noise" aria-hidden="true"></div>
+<header class="header">
+<a class="brand" href="#home"><b>MJ</b><span>MILAN JOSHI</span></a>
+<nav aria-label="Main navigation"><a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#stack">Stack</a><a href="#contact">Contact</a></nav>
+<a class="contact-pill" href="#contact">Let's connect ↗</a>
+</header>
+<main>
+<section id="home" class="hero">
+<div class="hero-copy"><p class="eyebrow"><i></i>KATHMANDU, NEPAL · DIGITAL PORTFOLIO</p><h1>Milan<br><em>Joshi</em></h1><p class="role">Project Coordinator · Web Developer · Life Insurance Consultant</p><p class="intro">Practical digital work across technology, coordination, business and sustainable development.</p><div class="actions"><a class="btn gold" href="#projects">Explore work</a><a class="btn" href="#about">About me</a></div></div>
+<div class="globe-note"><span></span>DRAG TO EXPLORE</div><div class="hero-footer"><span>01 / 06</span><span>THREE.JS · WEBGPU · TSL</span></div>
+</section>
+<section id="about" class="section"><p class="kicker">02 — PROFILE</p><div class="two-col"><h2>Digital work,<br><em>grounded in reality.</em></h2><div><p class="lead">I work across project coordination, insurance advisory and web development, with a strong interest in urban regeneration, sustainable development and useful technology.</p><p class="muted">This portfolio brings those disciplines together in one evolving digital space.</p></div></div></section>
+<section id="experience" class="section dark"><p class="kicker">03 — EXPERIENCE</p><div class="timeline"><article><time>2022 — NOW</time><div><h3>Life Insurance Consultant</h3><p>Life Insurance Corporation (Nepal) Limited</p></div></article><article><time>2022 — 2023</time><div><h3>Project Coordinator</h3><p>BEMS Development Program · multi-stakeholder health project</p></div></article><article><time>2022</time><div><h3>Project Coordinator Associate</h3><p>Mission Oxygen Team</p></div></article><article><time>2017</time><div><h3>Office Secretary</h3><p>Angel Engineering Consultancy</p></div></article><article><time>2013 — 2015</time><div><h3>Business Owner & Sales Partner</h3><p>A&amp;D Enterprises · Kathmandu</p></div></article></div></section>
+<section id="projects" class="section"><p class="kicker">04 — SELECTED WORK</p><div class="projects"><article class="project featured"><span>01</span><h3>Interactive Earth Portfolio</h3><p>Three.js · WebGPU · TSL · GSAP</p><a href="#home">View experience ↗</a></article><article class="project"><span>02</span><h3>Digital Presence</h3><p>SEO · Analytics · Accessibility · Cloudflare</p><a href="#contact">Discuss →</a></article><article class="project"><span>03</span><h3>Kathmandu Urban Conversation</h3><p>Urban regeneration · public space · sustainable development</p><a href="#contact">Explore →</a></article><article class="project"><span>04</span><h3>Professional Systems</h3><p>Operations · coordination · CRM · digital workflows</p><a href="#contact">Explore →</a></article></div></section>
+<section id="stack" class="section dark"><p class="kicker">05 — TECHNOLOGY</p><h2>Tools that make<br><em>ideas work.</em></h2><div class="tags"><span>Three.js</span><span>WebGPU</span><span>TSL</span><span>GSAP</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>WordPress</span><span>GitHub</span><span>VS Code</span><span>Figma</span><span>Canva</span><span>Cloudflare</span><span>Google Analytics</span><span>SEO</span><span>Accessibility</span><span>Microsoft 365</span><span>Google Workspace</span></div></section>
+<section id="contact" class="contact"><p class="eyebrow"><i></i>06 — CONTACT</p><h2>Have a project,<br><em>idea or opportunity?</em></h2><a class="email" href="mailto:mail@milanjoshi.com.np">mail@milanjoshi.com.np ↗</a><footer><span>© 2026 Milan Joshi</span><span>Kathmandu, Nepal</span><span>Built with Three.js + WebGPU</span></footer></section>
+</main>
+<div id="loader"><div><strong>MJ</strong><span>INITIALIZING EARTH</span><b>00%</b></div></div>
+<div id="fallback" hidden>WebGPU is unavailable on this device. The portfolio content is still available below.</div>
+<script type="module" src="./app.js"></script>
+</body>
+</html>
