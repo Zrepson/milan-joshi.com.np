@@ -21,7 +21,19 @@
 
 </head>
 <body>
+
+	<script type="importmap">
+{
+  "imports": {
+    "three": "./node_modules/three/build/three.module.js",
+    "three/addons/": "./node_modules/three/examples/jsm/"
+  }
+}
+</script>
     <script type="module">
+		
+			import * as THREE from 'three';
+			import Stats from 'three/addons/libs/stats.module.js';
 
 			import * as THREE from 'three/webgpu';
 			import { step, normalWorldGeometry, output, texture, vec3, vec4, normalize, positionWorld, bumpMap, cameraPosition, color, uniform, mix, uv, max } from 'three/tsl';
