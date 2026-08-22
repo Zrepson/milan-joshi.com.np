@@ -1,39 +1,45 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en"> 
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Milan Joshi — Digital Portfolio</title>
-<meta name="description" content="Milan Joshi — Project Coordinator, Web Developer and Life Insurance Consultant based in Kathmandu, Nepal.">
-<meta name="author" content="Milan Joshi">
-<meta name="robots" content="index,follow">
-<link rel="canonical" href="https://milan-joshi.com.np/">
-<meta name="theme-color" content="#050505">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Milan Joshi — Digital Portfolio">
-<meta property="og:description" content="Project coordination, web development, insurance advisory and sustainable development interests.">
-<meta property="og:url" content="https://milanjoshi.com.np/">
-<meta name="twitter:card" content="summary_large_image">
+
+	 <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	 <title> Milan J.</title>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
 
-	<script type="importmap">
-{
-  "imports": {
-    "three": "./node_modules/three/build/three.module.js",
-    "three/addons/": "./node_modules/three/examples/jsm/"
-  }
+<div id="earth-bg"></div>
+
+
+<style>
+ #earth-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
 }
-</script>
-    <script type="module">
-		
-			import * as THREE from 'three';
-			import Stats from 'three/addons/libs/stats.module.js';
+
+.site-content {
+  position: relative;
+  z-index: 1;
+}
+ </style>
+ 
+<script src="https://cdn.jsdelivr.net/npm/three@0.179.1/build/three.module.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.179.1/examples/jsm/"></script>
+
+<script type="module">
 
 			import * as THREE from 'three/webgpu';
 			import { step, normalWorldGeometry, output, texture, vec3, vec4, normalize, positionWorld, bumpMap, cameraPosition, color, uniform, mix, uv, max } from 'three/tsl';
@@ -214,8 +220,7 @@
 			}
 
 		</script>
-
-
-
 </body>
+	
 </html>
+ 
